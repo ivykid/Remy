@@ -1,0 +1,261 @@
+ /* footer */
+.footer-base {
+    background: #414141;
+    color: #d2d7d3;
+    min-height: 100px;
+    padding: 1.25em 0;
+    text-align: center;
+}
+
+article, aside, canvas, footer, header, main, section, small, nav, address, figure, figcaption, figure img {
+    display: block;
+}
+
+/* Remove ul bullets*/
+ul {
+  list-style-type: none;
+  /* display: inline;  */
+  text-align: center;
+}
+
+li{
+  display: inline;
+}
+nav.a{
+  font-weight: bold;
+}
+nav a:link, a:visited, a:hover, a:active {
+  color: grey;
+  text-decoration: none;
+  border-bottom: thin solid transparent;
+}
+form {
+  /* max-width: 608px; */
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+/* Treehouse */
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+/* Extra treehouse */
+*, *:before, *:after {
+  /* -moz-box-sizing: border-box; */
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+/* Style for icons */
+
+.fa {
+  padding : 20px;
+  font-size: 4.0em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook{
+  /* font-size: 300px; */
+  color: white;
+  padding-right: .25em;
+  margin-right: .25em;
+}
+
+.fa-github{
+  /* font-size: 300px; */
+  color: white;
+  padding-left: .25em;
+  margin-left: .25em;
+}
+
+/* header */
+header{
+background: #41414E;
+}
+
+/* footer p  */
+footer-f {
+  align-content: center;
+  clear: both;
+
+}
+
+.header_icon{
+  font-size: 25px;
+}
+
+.header_icon li{
+  /* color: #d2d7d3; */
+  color: white;
+  display: inline;
+}
+
+.header_icon li:after {
+  content: ' | ';
+}
+
+.header_icon li:last-child:after{
+  content: '';
+}
+/* These are for table and locations.html */
+table {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 1px;
+  max-width: 50%;
+}
+
+th, td {
+  border: 1.5px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+.table{
+  text-align: center;
+}
+
+/* Fixes boot strap issue */
+header nav {
+      font-family: 'Nunito', sans-serif;
+}
+/* Fix table to center */
+
+div#tabs-1 {
+  text-align: -webkit-center;
+}
+
+/* Fix title */
+h1#title {
+  font: 40px nunitto, sans-serif;
+  margin: 0px 0px 8px;
+  padding-top: 10px;
+}
+.title {
+    font: 40px nunitto, sans-serif;
+    margin: 0px 0px 8px;
+    padding-top: 10px;
+  }
+
+/* Increase table width */
+.gridview {
+  width: 900px;
+}
+
+
+/* Navigation menu */
+
+#navigation a:hover {
+  color: #000066;
+  background-color: #ffffff;
+}
+
+#navigation #mainnav #iamhere a,
+#navigation #mainnav #iamhere a:hover, a:active {
+  background-color: white;
+  color: #006;
+    color: green;
+  border-top: 1px outset #333;
+  border-right: 1px outset #333;
+  border-bottom: 1px outset #333;
+  /* border-left: 5px outset blue; */
+}
+
+/* Debuging */
+
+.main-picture {
+  text-align: center;
+}
+
+.front-image {
+  text-align: center;
+}
