@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/icon.png">
+    <title>Post of a picture of Remy</title>
+    <!-- Begining for meta details -->
+    <meta charset="UTF-8">
+  <meta name="description" content="Website for posting picture to Harvard remy's cat">
+  <meta name="keywords" content="Harvard,Extension,Remy,Cat,Harvard cat, Harvard,Remy">
+  <meta name="author" content="Jacob J. Khan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- End of meta tag -->
+    <!--
+    Added boot strap sheet from internet
+    www.getbootstrap.com
+    Copy and pasted the link bellow
+      -->
+    <!-- Boot strap social media -->
+
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- CSS for JS styles -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function() {
+            console.log("TEsting for function j-qeru");
+            $("#myForm").validate();
+        });
+    </script>
+    <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <script src="js/nav.js"></script>
+</head>
+<body>
+  <main>
+  <div class="title">
+      <h1 id="title">Remy the Cat</h1>
+  </div>
+  <div class="container">
+    <header>
+      <div id="part3" class="this_should_be_the_body">
+      <nav id="navigation">
+      <ul id="mainnav" class="header_icon">
+          <li id="navpart1"><a href="index.html">Home</a></li>
+          <li id="navpart2"><a href="locations.html">Location & Map</a></li>
+          <li id="navpart3"><a href="form.html">Post</a></li>
+          <li id="navpart4"><a href="pictures.html">Pictures</a></li>
+      </ul>
+      </nav>
+    </div>
+</header>
+    <form action="index.html" method="post" id="myForm">
+
+        <h1>Post pictures of Remy</h1>
+        <fieldset>
+            <legend><span class="number">1</span> Your basic info</legend>
+            <label for="name">Name:</label><em>(Required)</em>
+            <input id="name" type="text" name="name" size="25" class="required">
+            <label for="mail">Harvard Email:</label><em>(Required)</em>
+            <input id="mail" type="email" name="email" size="25" class="required email">
+
+
+            <label>House Affiliation</label>
+            <input type="radio" id="quad" value="Quad" name="house"><label for="quad" class="light">Quad House</label><br>
+            <input type="radio" id="river" value="over_13" name="house"><label for="river" class="light">River House</label><br>
+            <input type="radio" id="grad" value="under_13" name="house"><label for="grad" class="light">Grad Housing</label><br>
+            <input type="radio" id="other" value="under_13" name="house"><label for="other" class="light">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">2</span> Your Picture</legend>
+            <label for="bio">Upload Picture:</label>
+            <input id="bio" type="file" name="remy_pic" accept="image/*">
+            <label for="status">What is your Affiliation:</label>
+            <select id="status" name="user_job">
+                <optgroup label="">
+                    <option value="Student">Student</option>
+                    <option value="Faculty">Faculty</option>
+                    <option value="Staff">Staff</option>
+                    <option value="Visitor">Visitor</option>
+                    <option value="Tourist">Tourist</option>
+                    <option value="Parrents">Parrents of students</option>
+
+                </optgroup>
+                  </select>
+                <label for="location">Remys Location<em><b>(Address)</b></em>:</label><em>(Required)</em>
+                <input id="location" type="text" name="location" size="25" class="required">
+
+                <p>Date: <input type="text" id="datepicker"></p>
+
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">3</span> Signup for Newsletters</legend>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">About Remy monthly</label><br>
+            <input type="checkbox" id="design" value="design_development" name="design_interest"><label class="light" for="design">Newletters</label><br>
+            <input type="checkbox" id="business" value="business" name="business"><label class="light" for="business">Social events at Harvard</label>
+
+
+            <!-- </legend> -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    </div>
+  </main>
+<footer class="footer-base">
+    <a href="https://www.facebook.com/remythehumanitiescat/" class="fa fa-facebook"></a>
+<a href="https://github.com/ivykid/Remy" class="fa fa-github"></a>
+    <p class="footer-p">&copy; Copyrights Reserverd 2019</p>
+</footer>
+
+
+</body>
+
+
+</html>

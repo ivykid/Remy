@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Begining for meta details -->
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/icon.png">
+<meta name="description" content="Website for posting picture to Harvard remy's cat">
+<meta name="keywords" content="Harvard,Extension,Remy,Cat,Harvard cat, Harvard,Remy">
+<meta name="author" content="Jacob J. Khan">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- End of meta tag -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/css/swipebox.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<style>
+
+body {font-family: verdana,arial,helvetica,sans-serif; }
+h1 {margin-bottom: 0.5em; }
+p {margin-top: 1em; margin-bottom: 1em; }
+ul li { margin-top: 5px; }
+.gallery { border: thin solid #333;  background-color: #ddd; }
+.gallery img { margin: 10px; border: thin solid black; }
+.gallery a:link, .gallery a:visited, .gallery a:hover, .gallery a:active
+{ text-decoration: none; background-color: inherit; color: inherit;}
+/* .footer { font-size: 75%; border-top: thin solid #ccc; text-align: center; padding-top: 10px; margin-top: 10px; clear: both;}
+.footer a:link, .footer a:visited, .footer a:hover, .footer a:active */
+/* { text-decoration: none; color: blue;} */
+/* .footer a:hover { background-color: blue; color: white; } */
+.gallery { margin-bottom: 2em; float: left; width: 100%;}
+.gallery div { margin-left: 3em; float: left; height: 200px; width: 150px; text-align: center; font-size: xx-small; }
+/* margin: 0.25in; padding: 0.25in; */
+.footer-base{
+  clear: both;
+}
+</style>
+
+  <style>
+      .gallery, .gallery li { list-style: none; margin: 0; padding: 3em;}
+      .gallery li { display: block; float: left; width: 150px; height: 100px; margin: 5px;}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js"></script>
+  <script>
+      $('.swipebox').swipebox();
+  </script>
+    <title>Remy the Cat</title>
+    <!--
+    Added boot strap sheet from internet
+    www.getbootstrap.com
+    Copy and pasted the link bellow
+      -->
+      <!-- Boot strap social media -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <script src="js/nav.js"></script>
+</head>
+
+<body>
+  <div class="title">
+      <h1 id="title">Remy the Cat</h1>
+  </div>
+  <div class="container">
+  <header>
+  <div id="part4" class="this_should_be_the_body">
+    <nav id="navigation">
+    <ul id="mainnav" class="header_icon">
+        <li id="navpart1"><a href="index.html">Home</a></li>
+        <li id="navpart2"><a href="locations.html">Location & Map</a></li>
+        <li id="navpart3"><a href="form.html">Post</a></li>
+        <li id="navpart4"><a href="pictures.html">Pictures</a></li>
+    </ul>
+    </nav>
+  </div>
+  </header>
+
+      <h1>Pictures</h1>
+      <div class="gallery">
+
+      <a href="images/pic1.jpg" class="swipebox" ><img src="images/thums/pic1.jpg" alt="image" /></a>
+
+      <a href="images/pic2.jpg" class="swipebox" ><img src="images/thums/pic2.jpg" alt="image" /></a>
+
+      <a href="images/pic3.jpg" class="swipebox" ><img src="images/thums/pic3.jpg" alt="image" /></a>
+
+      <a href="images/pic4.jpg" class="swipebox" ><img src="images/thums/pic4.jpg" alt="image" /></a>
+
+      <a href="images/pic5.jpg" class="swipebox" ><img src="images/thums/pic5.jpg" alt="image" /></a>
+
+      <a href="images/pic6.jpg" class="swipebox" ><img src="images/thums/pic6.jpg" alt="image" /></a>
+
+      <a href="images/pic7.jpg" class="swipebox" ><img src="images/thums/pic7.jpg" alt="image" /></a>
+
+      </div>
+      <footer class="footer-base">
+        <a href="https://www.facebook.com/remythehumanitiescat/" class="fa fa-facebook"></a>
+        <a href="https://github.com/ivykid/Remy" class="fa fa-github"></a>
+                    <p class="footer-p">&copy; Copyrights Reserverd 2019</p>
+        </footer>
+  </div>
+</body>
+</html>

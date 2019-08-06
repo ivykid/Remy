@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Begining for meta details -->
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/icon.png">
+<meta name="description" content="Website for posting picture to Harvard remy's cat">
+<meta name="keywords" content="Harvard,Extension,Remy,Cat,Harvard cat, Harvard,Remy">
+<meta name="author" content="Jacob J. Khan">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- End of meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  html,body, #tabs-2 {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#map-canvas {
+  height: 500px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+  </style>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Locations for Remy the Cat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+  <!-- J-query library -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Google maps dependencies -->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDZ2ja0XsTIHyOeWJ8LJhf_WsvdqjpTzWU"></script>
+<script src="js/form.js"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ2ja0XsTIHyOeWJ8LJhf_WsvdqjpTzWU&callback=initMap" type="text/javascript"></script> -->
+<!-- Depedencies for UI tabs -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Tabs setup -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+  <script src="js/nav.js"></script>
+  </head>
+
+<body style = "font-family: 'Nunito', sans-serif;">
+
+    <div class="container">
+  <main>
+    <div class="title">
+        <h1 id="title">Remy the Cat</h1>
+    </div>
+  <header>
+    <div id="part2" class="this_should_be_the_body">
+    <nav id="navigation">
+    <ul id="mainnav" class="header_icon">
+        <li id="navpart1"><a href="index.html">Home</a></li>
+        <li id="navpart2"><a href="locations.html">Location & Map</a></li>
+        <li id="navpart3"><a href="form.html">Post</a></li>
+        <li id="navpart4"><a href="pictures.html">Pictures</a></li>
+    </ul>
+    </nav>
+  </div>
+  </header>
+  <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Grid View</a></li>
+    <li><a href="#tabs-2">Map View</a></li>
+  </ul>
+  <div id="tabs-1">
+    <h1>Locations of Remy</h1>
+    <table class="gridview">
+        <tr>
+            <th>Full name</th>
+            <th>Remy's location</th>
+            <th>Time Stamp</th>
+            <th>Link to Remy's picture</th>
+        </tr>
+        <tr>
+            <td>Adam Lebson</td>
+            <td>Harvard Faculty Club</td>
+            <td>05/25/2019</td>
+                <td><img src="images/maps/pic1.jpg" alt="Picture of remy"></td>
+        </tr>
+        <tr>
+            <td>Jacob Olfrio</td>
+            <td>Harvard</td>
+                <td>05/25/2019</td>
+            <td><img src="images/maps/pic2.jpg" alt="Picture of remy"></td>
+
+        </tr>
+        <tr>
+            <td>John Harvard</td>
+            <td>Cabot-Science center</td>
+                <td>05/25/2019</td>
+            <td><img src="images/maps/pic3.jpg" alt="Picture of remy"></td>
+
+        </tr>
+        <tr>
+            <td>Adam Lebson</td>
+            <td>Harvard Faculty Club</td>
+                <td>05/25/2019</td>
+            <td><img src="images/maps/pic4.jpg" alt="Picture of remy"></td>
+
+        </tr>
+        <tr>
+            <td>Jacob Olfrio</td>
+            <td>Harvard Faculty Club</td>
+                <td>05/25/2019</td>
+            <td><img src="images/maps/pic5.jpg" alt="Picture of remy"></td>
+
+        </tr>
+        <tr>
+            <td>John Harvard</td>
+            <td>Cabot-Science center</td>
+                <td>05/25/2019</td>
+              <td><img src="images/maps/pic6.jpg" alt="Picture of remy"></td>
+
+        </tr>
+        <tr>
+            <td>Adam Lebson</td>
+            <td>Harvard Faculty Club</td>
+                <td>05/25/2019</td>
+              <td><img src="images/maps/pic7.jpg" alt="Picture of remy"></td>
+
+        </tr>
+
+      </table>
+  </div>
+  <div id="tabs-2">
+    <h3>Map</h3>
+    <div id="map-canvas">Test</div>
+  </div>
+
+</div>
+</main>
+<footer class="footer-base">
+  <a href="https://www.facebook.com/remythehumanitiescat/" class="fa fa-facebook"></a>
+  <a href="https://github.com/ivykid/Remy" class="fa fa-github"></a>
+              <p class="footer-p">&copy; Copyrights Reserverd 2019</p>
+  </footer>
+</div>
+
+  </body>
+</html>
